@@ -4,8 +4,7 @@ language: generic
 sudo: required
 branches:
   only:
-  - gh-pages
-  - /.*/
+  - main
 git:
   depth: 1
 addons:
