@@ -2,6 +2,10 @@ os: linux
 dist: bionic
 language: generic
 sudo: required
+branches:
+  only:
+  - gh-pages
+  - /.*/
 git:
   depth: 1
 addons:
